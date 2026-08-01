@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Security — KEYDIR.in</title>
+
+  <meta name="description" content="Security overview for KEYDIR.in — how the community-maintained Indian mechanical keyboard directory protects users, how to report vulnerabilities responsibly, and what to do if you find a problem.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://keydir.in/app/security/">
+  <meta name="geo.region" content="IN">
+  <meta name="geo.placename" content="India">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/favicon-512.png">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-512.png">
+
+  <meta property="og:title" content="Security — KEYDIR.in">
+  <meta property="og:description" content="How KEYDIR.in protects users and how to report vulnerabilities.">
+  <meta property="og:url" content="https://keydir.in/app/security/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="KEYDIR.in">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:image" content="https://keydir.in/assets/img/Banner.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="KEYDIR.in Security">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Security — KEYDIR.in">
+  <meta name="twitter:description" content="How KEYDIR.in protects users and how to report vulnerabilities.">
+  <meta name="twitter:image" content="https://keydir.in/assets/img/Banner.png">
+
+  <script type="application/ld+json">
+  {
+   "@context": "https://schema.org",
+   "@type": "WebPage",
+   "name": "Security",
+   "url": "https://keydir.in/app/security/",
+   "description": "Security overview for KEYDIR.in."
+  }
+  </script>
+
+  <link rel="stylesheet" href="/app/assets/css/style.css">
+</head>
+<body>
+<main id="main">
+
+  <section class="doc-hero">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/app/">/docs</a><span class="sep">/</span><span class="cur">security</span>
+    </nav>
+    <h1 class="doc-title">SECURITY</h1>
+    <p class="doc-sub">KEYDIR is a small static project with a small attack surface. This page explains how we protect it, and how you can help.</p>
+    <div class="doc-meta">
+      <span class="meta-chip">Last updated 2026-07-31</span>
+      <span class="meta-chip">Version v1.0</span>
+    </div>
+  </section>
+
+  <div class="doc-layout">
+    <nav class="toc" aria-label="On this page">
+      <div class="toc-title">// TABLE OF CONTENTS</div>
+      <ul class="toc-list">
+        <li><a href="#s1"><span class="toc-n">01</span> Our Approach</a></li>
+        <li><a href="#s2"><span class="toc-n">02</span> What We Protect</a></li>
+        <li><a href="#s3"><span class="toc-n">03</span> Platform Security</a></li>
+        <li><a href="#s4"><span class="toc-n">04</span> Your Account</a></li>
+        <li><a href="#s5"><span class="toc-n">05</span> Phishing &amp; Scams</a></li>
+        <li><a href="#s6"><span class="toc-n">06</span> Responsible Disclosure</a></li>
+        <li><a href="#s7"><span class="toc-n">07</span> What to Expect</a></li>
+        <li><a href="#s8"><span class="toc-n">08</span> Contact</a></li>
+      </ul>
+    </nav>
+
+    <article class="doc">
+
+      <div class="note info">
+        <span class="n-icon">ℹ</span>
+        <div class="n-text">The best security measure KEYDIR has is <strong>simplicity</strong>. Static pages, no database of personal data in the directory, no payment processing, minimal JavaScript. There is little to break because there is little to attack.</div>
+      </div>
+
+      <h2 id="s1"><span class="sec-n">SECTION_01</span> Our Approach</h2>
+      <p>KEYDIR's security model is built on three ideas:</p>
+      <ul>
+        <li><strong>Minimize</strong> — we collect the least data possible (see the <a href="/app/privacy/">Privacy Policy</a>) and store none of it in the directory.</li>
+        <li><strong>Defer</strong> — the directory is served from static hosting infrastructure maintained by a large provider with dedicated security teams.</li>
+        <li><strong>Disclose</strong> — real vulnerabilities get fixed, acknowledged, and thanked, not ignored.</li>
+      </ul>
+
+      <h2 id="s2"><span class="sec-n">SECTION_02</span> What We Protect</h2>
+      <ul>
+        <li><strong>The directory and this site</strong> — served over HTTPS only, with no login and no stored user data.</li>
+        <li><strong>The app</strong> — account credentials and personal data at app.keydir.in, protected by the hosting platform's authentication and infrastructure.</li>
+        <li><strong>The repository</strong> — the open-source codebase on GitHub, with its own security tooling.</li>
+        <li><strong>You</strong> — the community, against scams and phishing that misuse the KEYDIR name.</li>
+      </ul>
+
+      <h2 id="s3"><span class="sec-n">SECTION_03</span> Platform Security</h2>
+      <table>
+        <thead>
+          <tr><th>Measure</th><th>What it does</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>HTTPS everywhere</strong></td><td>All traffic is encrypted; the site is configured to use HTTPS and HSTS where the platform supports it.</td></tr>
+          <tr><td><strong>Static hosting</strong></td><td>No application server, no server-side processing, no database on the directory.</td></tr>
+          <tr><td><strong>Minimal JavaScript</strong></td><td>The directory works without JS; interactive scripts are small, first-party, and auditable.</td></tr>
+          <tr><td><strong>Open source</strong></td><td>Anyone can review the code for vulnerabilities.</td></tr>
+          <tr><td><strong>Escalation</strong></td><td>We do not store passwords or personal data server-side in the directory; where the app requires it, the platform provider's security controls apply.</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="s4"><span class="sec-n">SECTION_04</span> Your Account</h2>
+      <p>If you use the app with an account, protect it:</p>
+      <ul>
+        <li>Use a strong, unique password and do not reuse it across sites.</li>
+        <li>Enable any two-factor authentication the app offers.</li>
+        <li>Never share your credentials, including with someone claiming to be a KEYDIR maintainer — maintainers will never ask for your password.</li>
+        <li>If you believe your account was compromised, report it immediately through the <a href="/app/contact/#report-abuse">Report Abuse</a> channel.</li>
+      </ul>
+
+      <h2 id="s5"><span class="sec-n">SECTION_05</span> Phishing &amp; Scams</h2>
+      <div class="note warn">
+        <span class="n-icon">⚠</span>
+        <div class="n-text">KEYDIR maintainers will <strong>never</strong> ask you for passwords, OTPs, or payment "to keep your listing live". No one can buy placement on KEYDIR. Treat any such request as a scam and <a href="/app/contact/#report-abuse">report it</a>.</div>
+      </div>
+      <p>Scammers sometimes impersonate community projects. Key facts to check:</p>
+      <ul>
+        <li>The official directory is <strong>keydir.in</strong>; the official app is <strong>app.keydir.in</strong>. Verify the domain before entering credentials.</li>
+        <li>KEYDIR never collects advance payment for listings, flags, or placement.</li>
+        <li>Legitimate communications come from the official email address, <strong>officialkeydir.in@gmail.com</strong>, or the official GitHub repository.</li>
+      </ul>
+
+      <h2 id="s6"><span class="sec-n">SECTION_06</span> Responsible Disclosure</h2>
+      <p>If you find a security vulnerability in the directory, this documentation site, or the app, we would appreciate a responsible report:</p>
+      <ol>
+        <li>Email the details to <strong>officialkeydir.in@gmail.com</strong> with the subject <code>[SECURITY]</code>, or open a private report via GitHub's security advisory feature.</li>
+        <li>Include a clear description, steps to reproduce, and the impact you observed.</li>
+        <li>Give us a reasonable period (we suggest at least 30 days) to fix the issue before public disclosure.</li>
+        <li>Do not access or exfiltrate data beyond what is needed to demonstrate the issue, and do not disrupt the service for others.</li>
+      </ol>
+
+      <h2 id="s7"><span class="sec-n">SECTION_07</span> What to Expect</h2>
+      <ul>
+        <li><strong>Acknowledgement</strong> — we confirm receipt of valid reports, usually within a few days.</li>
+        <li><strong>A fix</strong> — we work on a resolution and credit you in the project's acknowledgements if you wish.</li>
+        <li><strong>No bounty</strong> — this is a volunteer project without a bug-bounty budget. Our thanks, credit, and a place in the changelog are what we can offer.</li>
+      </ul>
+      <p>Testing the live service beyond demonstrating a vulnerability, without coordination, may violate the <a href="/app/acceptable-use/">Acceptable Use Policy</a>. Coordinated, good-faith testing is welcome.</p>
+
+      <h2 id="s8"><span class="sec-n">SECTION_08</span> Contact</h2>
+      <p>Security reports: <strong>officialkeydir.in@gmail.com</strong> (subject <code>[SECURITY]</code>) or GitHub security advisories on the <a href="https://github.com/SHADOW269/Keydir.in" target="_blank" rel="noopener">repository</a>.</p>
+
+    </article>
+  </div>
+
+</main>
+<script src="/app/assets/js/app.js"></script>
+</body>
+</html>
