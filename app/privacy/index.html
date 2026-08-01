@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Privacy Policy — KEYDIR.in</title>
+  <title>Privacy Policy — KeyDir Application</title>
 
-  <meta name="description" content="Privacy Policy for KEYDIR.in — what data the community-maintained mechanical keyboard directory collects, how it is used, and the rights you have over your information.">
+  <meta name="description" content="Privacy Policy for the KeyDir Application at app.keydir.in — what data the platform collects, how it is used, who it is shared with, and the rights you have over your information.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://keydir.in/app/privacy/">
   <meta name="geo.region" content="IN">
@@ -18,20 +18,20 @@
   <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/favicon-512.png">
   <link rel="apple-touch-icon" href="/assets/img/favicon-512.png">
 
-  <meta property="og:title" content="Privacy Policy — KEYDIR.in">
-  <meta property="og:description" content="What data KEYDIR.in collects and your rights over it.">
+  <meta property="og:title" content="Privacy Policy — KeyDir Application">
+  <meta property="og:description" content="What data the KeyDir Application collects and your rights over it.">
   <meta property="og:url" content="https://keydir.in/app/privacy/">
   <meta property="og:type" content="article">
-  <meta property="og:site_name" content="KEYDIR.in">
+  <meta property="og:site_name" content="KeyDir">
   <meta property="og:locale" content="en_IN">
   <meta property="og:image" content="https://keydir.in/assets/img/Banner.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="KEYDIR.in Privacy Policy">
+  <meta property="og:image:alt" content="KeyDir Application Privacy Policy">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Privacy Policy — KEYDIR.in">
-  <meta name="twitter:description" content="What data KEYDIR.in collects and your rights over it.">
+  <meta name="twitter:title" content="Privacy Policy — KeyDir Application">
+  <meta name="twitter:description" content="What data the KeyDir Application collects and your rights over it.">
   <meta name="twitter:image" content="https://keydir.in/assets/img/Banner.png">
 
   <script type="application/ld+json">
@@ -40,24 +40,26 @@
    "@type": "WebPage",
    "name": "Privacy Policy",
    "url": "https://keydir.in/app/privacy/",
-   "description": "Privacy Policy for KEYDIR.in."
+   "description": "Privacy Policy for the KeyDir Application at app.keydir.in."
   }
   </script>
 
+  <link rel="manifest" href="/app/manifest.json">
   <link rel="stylesheet" href="/app/assets/css/style.css">
+  <script src="/app/assets/js/theme.js"></script>
 </head>
 <body>
 <main id="main">
 
   <section class="doc-hero">
     <nav class="crumbs" aria-label="Breadcrumb">
-      <a href="/app/">/docs</a><span class="sep">/</span><span class="cur">privacy</span>
+      <a href="/app/">/docs</a><span class="sep">/</span><a href="/app/#legal">legal</a><span class="sep">/</span><span class="cur">privacy</span>
     </nav>
     <h1 class="doc-title">PRIVACY <span class="outline">POLICY</span></h1>
-    <p class="doc-sub">KEYDIR.in is designed to be a lean, static directory. We collect as little as possible — this page explains exactly what, and what you can do about it.</p>
+    <p class="doc-sub">The KeyDir Platform is designed to collect as little as possible. This page explains exactly what we collect, why, and what you can do about it.</p>
     <div class="doc-meta">
-      <span class="meta-chip">Last updated 2026-07-31</span>
-      <span class="meta-chip">Version v1.0</span>
+      <span class="meta-chip">Last updated 2026-08-01</span>
+      <span class="meta-chip">Version v2.0</span>
       <span class="meta-chip warn">May require legal review</span>
     </div>
   </section>
@@ -84,27 +86,32 @@
 
     <article class="doc">
 
+      <div class="note scope">
+        <span class="n-icon">◈</span>
+        <div class="n-text"><strong>Scope:</strong> This document applies only to <strong>app.keydir.in</strong> and its related services.</div>
+      </div>
+
       <div class="note info">
         <span class="n-icon">ℹ</span>
-        <div class="n-text">The short version: the directory is a <strong>static website</strong> — there is no login, no user database, and no server-side tracking on the core directory. The app at app.keydir.in may handle account data, and that is covered in this policy too.</div>
+        <div class="n-text">The short version: the KeyDir Platform minimizes the data it collects. The application at app.keydir.in handles account data — sign-in, profiles, saved collections — and that is fully covered in this policy.</div>
       </div>
 
       <h2 id="s1"><span class="sec-n">SECTION_01</span> Overview</h2>
-      <p>This Privacy Policy explains how KEYDIR.in ("we", "us") handles information when you use keydir.in, keydir.in/app, app.keydir.in, and related community channels. We are a community project, not a data business: we do not sell personal information, and we do not serve targeted advertising.</p>
-      <p>This policy applies to information collected online. By using the service, you agree to the practices described here.</p>
+      <p>This Privacy Policy explains how KeyDir ("we", "us") handles information when you use the KeyDir Application at <strong>app.keydir.in</strong>, the documentation portal at <strong>keydir.in/app</strong>, and related application services. We do not sell personal information, and we do not serve targeted advertising that profiles you.</p>
+      <p>This policy applies to information collected online through the platform. By using the application, you agree to the practices described here.</p>
 
       <h2 id="s2"><span class="sec-n">SECTION_02</span> Information We Collect</h2>
-      <p>Because the directory is largely static, we collect very little personal information directly. The following may be collected depending on how you use the service:</p>
+      <p>The following may be collected depending on how you use the application:</p>
       <table>
         <thead>
           <tr><th>Category</th><th>What it is</th><th>Where it comes from</th></tr>
         </thead>
         <tbody>
           <tr><td><strong>Log data</strong></td><td>IP address, user agent, approximate location, pages visited, timestamps</td><td>Hosting infrastructure (e.g. GitHub Pages / CDN) automatically</td></tr>
-          <tr><td><strong>Analytics data</strong></td><td>Aggregated, anonymized usage statistics</td><td>Analytics script on the directory</td></tr>
-          <tr><td><strong>Preferences</strong></td><td>Theme preference (dark/light)</td><td>Stored locally in your browser</td></tr>
-          <tr><td><strong>Account data</strong></td><td>Email address, username, profile details, saved collections</td><td>Provided by you when registering on the app</td></tr>
-          <tr><td><strong>Contributions</strong></td><td>Content you submit, such as listing suggestions, reviews, or issues</td><td>Provided by you, including via GitHub</td></tr>
+          <tr><td><strong>Analytics data</strong></td><td>Aggregated, anonymized usage statistics</td><td>Analytics script on the platform</td></tr>
+          <tr><td><strong>Preferences</strong></td><td>Theme preference (dark/light), saved settings</td><td>Stored locally in your browser</td></tr>
+          <tr><td><strong>Account data</strong></td><td>Email address, username, profile details, saved collections</td><td>Provided by you when registering on the app, or received from Google/Discord when you sign in with OAuth</td></tr>
+          <tr><td><strong>Content</strong></td><td>Content you submit, such as listing suggestions, reviews, votes, or corrections</td><td>Provided by you through the application</td></tr>
           <tr><td><strong>Communications</strong></td><td>Your messages and email address</td><td>Provided by you when you contact us</td></tr>
         </tbody>
       </table>
@@ -112,8 +119,8 @@
       <h2 id="s3"><span class="sec-n">SECTION_03</span> How We Use Information</h2>
       <p>We use the information we collect for the following purposes:</p>
       <ul>
-        <li>To operate, maintain, and secure the service.</li>
-        <li>To understand aggregate traffic patterns and improve the directory.</li>
+        <li>To operate, maintain, and secure the application.</li>
+        <li>To understand aggregate traffic patterns and improve the platform.</li>
         <li>To provide account features you request, such as collections and profiles.</li>
         <li>To respond to your messages, reports, and data-removal requests.</li>
         <li>To investigate and prevent abuse, fraud, or violations of our policies.</li>
@@ -124,40 +131,41 @@
       <h2 id="s4"><span class="sec-n">SECTION_04</span> Cookies &amp; Local Storage</h2>
       <p>We use browser storage sparingly:</p>
       <ul>
-        <li><strong>Local storage</strong> — used to remember your theme preference on this device.</li>
+        <li><strong>Local storage</strong> — used to remember your theme preference and settings on this device.</li>
         <li><strong>Cookies / storage set by third parties</strong> — the analytics service may set cookies to recognize returning visitors.</li>
       </ul>
       <p>Full details, including how to control or delete these, are in the <a href="/app/cookies/">Cookie Policy</a>.</p>
 
       <h2 id="s5"><span class="sec-n">SECTION_05</span> Sharing &amp; Third Parties</h2>
-      <p>We share information only in the limited circumstances described below:</p>
+      <p>We share information only in the limited circumstances described below. These providers are involved when you use the application at app.keydir.in:</p>
       <table>
         <thead>
           <tr><th>Recipient</th><th>Purpose</th><th>Data shared</th></tr>
         </thead>
         <tbody>
-          <tr><td><strong>Hosting provider</strong></td><td>Hosting and serving the static site</td><td>Log data (IP address, user agent)</td></tr>
-          <tr><td><strong>Analytics provider</strong></td><td>Aggregate usage statistics</td><td>Anonymized analytics events</td></tr>
-          <tr><td><strong>Platform providers</strong></td><td>Account sign-in and app infrastructure for app.keydir.in</td><td>Data required by the provider</td></tr>
-          <tr><td><strong>GitHub</strong></td><td>Hosting the open-source repository and issue tracker</td><td>Anything you post publicly to the repository</td></tr>
+          <tr><td><strong>Hosting provider (GitHub Pages)</strong></td><td>Hosting and serving the platform</td><td>Log data (IP address, user agent)</td></tr>
+          <tr><td><strong>Cloudinary</strong></td><td>Image hosting and optimization for vendor, builder and product images</td><td>Images you upload and technical metadata required to serve them</td></tr>
+          <tr><td><strong>Supabase</strong></td><td>Backend infrastructure for the app — authentication, database and storage for accounts, collections and votes</td><td>Account data, saved collections and vote records you create</td></tr>
+          <tr><td><strong>Google OAuth</strong></td><td>Optional "Sign in with Google" for app accounts</td><td>Your Google profile name and email address, returned to you by Google during sign-in</td></tr>
+          <tr><td><strong>Discord OAuth</strong></td><td>Optional "Sign in with Discord" for app accounts</td><td>Your Discord username and associated identifiers during sign-in</td></tr>
+          <tr><td><strong>GitHub</strong></td><td>Hosting the project repository and issue tracker</td><td>Anything you post publicly to the repository</td></tr>
           <tr><td><strong>Authorities</strong></td><td>Compliance with legal obligations</td><td>As required by law</td></tr>
         </tbody>
       </table>
-      <p>We do not sell, rent, or trade your personal information to any third party.</p>
+      <p>These providers process data under their own terms and privacy policies; each is used only for the specific purpose listed. We do not sell, rent, or trade your personal information to any third party.</p>
 
       <h2 id="s6"><span class="sec-n">SECTION_06</span> Analytics</h2>
-      <p>The directory uses a privacy-respecting, cookieless analytics script to count page views and understand aggregate traffic. Analytics data is aggregated and is not used to identify individual users. You can opt out by:</p>
+      <p>The platform uses a privacy-respecting, cookieless analytics script to count page views and understand aggregate traffic. Analytics data is aggregated and is not used to identify individual users. You can opt out by:</p>
       <ul>
         <li>Blocking the analytics script in your browser or with an ad/tracker blocker.</li>
-        <li>Disabling JavaScript in your browser (the directory still functions without it).</li>
+        <li>Disabling JavaScript in your browser where the platform still functions without it.</li>
       </ul>
-      <p>No analytics script runs on this documentation center itself.</p>
 
       <h2 id="s7"><span class="sec-n">SECTION_07</span> Data Retention</h2>
       <ul>
         <li><strong>Log data:</strong> retained by the hosting provider for a limited period, typically no more than a few weeks, before automatic deletion.</li>
         <li><strong>Account data:</strong> retained while your account is active, and for a reasonable period after deletion to satisfy legal and security requirements.</li>
-        <li><strong>Contributions:</strong> retained as part of the public record of the project (e.g. GitHub history). Requests to remove contributions are handled on a case-by-case basis.</li>
+        <li><strong>Content:</strong> retained as part of the public record of the platform. Requests to remove content are handled on a case-by-case basis.</li>
       </ul>
 
       <h2 id="s8"><span class="sec-n">SECTION_08</span> Your Rights</h2>
@@ -171,19 +179,19 @@
         <li><strong>Withdraw consent</strong> — where processing is based on consent.</li>
         <li><strong>Complain</strong> — lodge a complaint with your local data-protection authority.</li>
       </ul>
-      <p>To exercise any of these rights, use the <a href="/app/contact/#data-removal">data removal</a> channel on the Contact page or email <strong>officialkeydir.in@gmail.com</strong>. We will respond within a reasonable time, usually within 30 days.</p>
+      <p>To exercise any of these rights, use the <a href="/app/data-removal/">Data Removal</a> procedure or email <strong>officialkeydir.in@gmail.com</strong>. We will respond within a reasonable time, usually within 30 days.</p>
 
       <h2 id="s9"><span class="sec-n">SECTION_09</span> Children's Privacy</h2>
-      <p>The service is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us personal information, contact us and we will take steps to delete it.</p>
+      <p>The application is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us personal information, contact us and we will take steps to delete it.</p>
 
       <h2 id="s10"><span class="sec-n">SECTION_10</span> Third-Party Links</h2>
-      <p>The directory links to external websites operated by vendors, builders, and brands. This Privacy Policy does not apply to those websites. We are not responsible for their privacy practices — please review their policies before providing them any information.</p>
+      <p>The platform links to external websites operated by vendors, builders, and brands. This Privacy Policy does not apply to those websites. We are not responsible for their privacy practices — please review their policies before providing them any information.</p>
 
       <h2 id="s11"><span class="sec-n">SECTION_11</span> Data Security</h2>
-      <p>We take reasonable technical and organizational measures to protect information, including serving all traffic over HTTPS, minimizing the data we collect, and keeping the attack surface of the service small (static pages, minimal JavaScript). No method of transmission or storage is completely secure, and we cannot guarantee absolute security. Details are on the <a href="/app/security/">Security</a> page.</p>
+      <p>We take reasonable technical and organizational measures to protect information, including serving all traffic over HTTPS, minimizing the data we collect, and keeping the attack surface of the platform small. No method of transmission or storage is completely secure, and we cannot guarantee absolute security. Details are on the <a href="/app/security/">Security</a> page.</p>
 
       <h2 id="s12"><span class="sec-n">SECTION_12</span> Changes to This Policy</h2>
-      <p>This Privacy Policy may be updated as the service evolves. The "Last updated" date at the top of this page reflects the most recent revision. Material changes will be announced through the project's GitHub repository and community channels.</p>
+      <p>This Privacy Policy may be updated as the platform evolves. The "Last updated" date at the top of this page reflects the most recent revision. Material changes will be announced through the application and this documentation portal.</p>
 
       <h2 id="s13"><span class="sec-n">SECTION_13</span> Contact</h2>
       <div class="note legal">

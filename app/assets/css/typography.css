@@ -1,0 +1,11 @@
+/* ════════════════════════════════════════
+   KEYDIR — Shared Typography System
+   Single source of truth for fonts.
+   Must match keydir.in exactly.
+   ════════════════════════════════════════ */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Space+Grotesk:wght@400;700;800&display=swap');
+
+:root{
+  --f-d:'Space Grotesk',sans-serif;
+  --f-m:'JetBrains Mono',monospace;
+}

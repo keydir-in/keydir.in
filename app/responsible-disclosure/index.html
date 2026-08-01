@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Responsible Disclosure — KeyDir Application</title>
+
+  <meta name="description" content="Responsible Disclosure for the KeyDir Application at app.keydir.in — how to report a security vulnerability safely, what we promise, and what to avoid.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://keydir.in/app/responsible-disclosure/">
+  <meta name="geo.region" content="IN">
+  <meta name="geo.placename" content="India">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/favicon-512.png">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-512.png">
+
+  <meta property="og:title" content="Responsible Disclosure — KeyDir Application">
+  <meta property="og:description" content="How to report a security vulnerability in the KeyDir Application safely.">
+  <meta property="og:url" content="https://keydir.in/app/responsible-disclosure/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="KeyDir">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:image" content="https://keydir.in/assets/img/Banner.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="KeyDir Application Responsible Disclosure">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Responsible Disclosure — KeyDir Application">
+  <meta name="twitter:description" content="How to report a security vulnerability in the KeyDir Application safely.">
+  <meta name="twitter:image" content="https://keydir.in/assets/img/Banner.png">
+
+  <script type="application/ld+json">
+  {
+   "@context": "https://schema.org",
+   "@type": "WebPage",
+   "name": "Responsible Disclosure",
+   "url": "https://keydir.in/app/responsible-disclosure/",
+   "description": "Responsible Disclosure for the KeyDir Application."
+  }
+  </script>
+
+  <link rel="manifest" href="/app/manifest.json">
+  <link rel="stylesheet" href="/app/assets/css/style.css">
+  <script src="/app/assets/js/theme.js"></script>
+</head>
+<body>
+<main id="main">
+
+  <section class="doc-hero">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/app/">/docs</a><span class="sep">/</span><a href="/app/#security">security</a><span class="sep">/</span><span class="cur">responsible-disclosure</span>
+    </nav>
+    <h1 class="doc-title">RESPONSIBLE <span class="outline">DISCLOSURE</span></h1>
+    <p class="doc-sub">Found a vulnerability in the KeyDir Application? Report it the right way and we will fix it, credit you, and not sue you.</p>
+    <div class="doc-meta">
+      <span class="meta-chip">Last updated 2026-08-01</span>
+      <span class="meta-chip">Version v1.0</span>
+    </div>
+  </section>
+
+  <div class="doc-layout">
+    <nav class="toc" aria-label="On this page">
+      <div class="toc-title">// TABLE OF CONTENTS</div>
+      <ul class="toc-list">
+        <li><a href="#s1"><span class="toc-n">01</span> Scope</a></li>
+        <li><a href="#s2"><span class="toc-n">02</span> How to Report</a></li>
+        <li><a href="#s3"><span class="toc-n">03</span> What We Promise</a></li>
+        <li><a href="#s4"><span class="toc-n">04</span> Safe Testing Rules</a></li>
+        <li><a href="#s5"><span class="toc-n">05</span> Out of Scope</a></li>
+        <li><a href="#s6"><span class="toc-n">06</span> Credit</a></li>
+      </ul>
+    </nav>
+
+    <article class="doc">
+
+      <div class="note scope">
+        <span class="n-icon">◈</span>
+        <div class="n-text"><strong>Scope:</strong> This document applies only to <strong>app.keydir.in</strong> and its related services.</div>
+      </div>
+
+      <h2 id="s1"><span class="sec-n">SECTION_01</span> Scope</h2>
+      <p>This policy covers security vulnerabilities in the KeyDir Application and its documentation site. The community directory at keydir.in is a separate service; if you find a vulnerability there, please follow the same process and it will be routed correctly.</p>
+
+      <h2 id="s2"><span class="sec-n">SECTION_02</span> How to Report</h2>
+      <ol>
+        <li>Email <strong>officialkeydir.in@gmail.com</strong> with subject <code>[SECURITY]</code>.</li>
+        <li>Describe the vulnerability: what, where, steps to reproduce, and impact.</li>
+        <li>Include only what is needed to demonstrate the issue.</li>
+        <li>Give us at least 30 days to fix it before any public disclosure.</li>
+      </ol>
+
+      <h2 id="s3"><span class="sec-n">SECTION_03</span> What We Promise</h2>
+      <ul>
+        <li><strong>Acknowledgement</strong> — we confirm receipt within a few days.</li>
+        <li><strong>Investigation</strong> — we review and respond on validity and impact.</li>
+        <li><strong>A fix</strong> — valid issues are addressed and you are credited if you want.</li>
+        <li><strong>Good faith</strong> — good-faith reports made under this policy will not result in legal action against you.</li>
+      </ul>
+
+      <h2 id="s4"><span class="sec-n">SECTION_04</span> Safe Testing Rules</h2>
+      <ul>
+        <li>Test only against your own accounts and data.</li>
+        <li>Do not access or exfiltrate data beyond what is needed to demonstrate the issue.</li>
+        <li>Do not disrupt the service for other users.</li>
+        <li>Do not destroy or modify data.</li>
+        <li>Coordinate any large-scale or unusual testing with us first.</li>
+      </ul>
+      <p>Testing that violates these rules may be treated as unauthorized activity under the <a href="/app/acceptable-use/">Acceptable Use Policy</a>.</p>
+
+      <h2 id="s5"><span class="sec-n">SECTION_05</span> Out of Scope</h2>
+      <ul>
+        <li>Phishing and social-engineering of users.</li>
+        <li>Denial-of-service attacks against the service.</li>
+        <li>Attacks on third-party services the platform uses.</li>
+        <li>Issues already fixed or reported, and non-security bugs (use the <a href="/app/contact/">Contact page</a>).</li>
+      </ul>
+
+      <h2 id="s6"><span class="sec-n">SECTION_06</span> Credit</h2>
+      <p>We do not offer a bug bounty. We offer our thanks, credit on the platform where we maintain it, and a direct line to follow up on the fix. See also the <a href="/app/security/">Security page</a>.</p>
+
+    </article>
+  </div>
+
+</main>
+<script src="/app/assets/js/app.js"></script>
+</body>
+</html>
