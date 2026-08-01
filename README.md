@@ -8,8 +8,8 @@
       <b>India's community-maintained Directory</b><br>
       Vendors · Builders · Brand Stores · No ads. No affiliates. Just data.<br><br>
       <a href="https://keydir.in">🌐 keydir.in</a> &nbsp;·&nbsp;
-      <a href="https://github.com/SHADOW269/keydir.in/issues/new">🐛 Report an issue</a> &nbsp;·&nbsp;
-      <a href="https://github.com/SHADOW269/keydir.in/fork">🍴 Fork & contribute</a> &nbsp;·&nbsp;
+      <a href="https://github.com/keydir-in/keydir.in/issues/new">🐛 Report an issue</a> &nbsp;·&nbsp;
+      <a href="https://github.com/keydir-in/keydir.in/fork">🍴 Fork & contribute</a> &nbsp;·&nbsp;
       <a href="https://keydir.in/contact/">🚀 Contact the Admin</a>
     </td>
   </tr>
@@ -24,7 +24,7 @@
 - [Features](#features)
 - [Tech stack](#tech-stack)
 - [Project structure](#project-structure)
-- [License](https://github.com/SHADOW269/Keydir.in?tab=License-1-ov-file)
+- [License](https://github.com/keydir-in/keydir.in?tab=License-1-ov-file)
 
 ## What's inside
 

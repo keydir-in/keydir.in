@@ -5,7 +5,7 @@ KEYDIR is a community-driven project, and contributions help keep the directory 
 ### 1. Fork the repository
 
 ```text
-https://github.com/SHADOW269/keydir.in/fork
+https://github.com/keydir-in/keydir.in/fork
 ```
 
 ### 2. Add or update vendor data
