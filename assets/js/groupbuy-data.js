@@ -47,7 +47,7 @@ const GROUP_BUYS = [
     organizer_url: "https://neomacro.in",
     icon: "⌨",
     category: "Keyboard",
-    status: "active",
+    status: "closed",
     desc: "“Kraze” comes from a blend of “Keyboard” and “Craze.” The name represents the passion and enthusiasm shared by keyboard lovers around the world.",
     price: "₹11,000",
     moq: "MOQ: NOT SET",
@@ -58,7 +58,7 @@ const GROUP_BUYS = [
     discord: "https://discord.com/invite/W4ZzfmC8Me",
     warning: false,
     warning_message: "",
-    outcome: ""
+    outcome: "GB Closed - waiting for delivery."
   },
   /* ── UPCOMING GROUP BUYS ── */
   {

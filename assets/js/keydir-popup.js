@@ -13,10 +13,22 @@
 const POPUP_DATA = {
 
   /* Version string — increment this to force re-show to ALL visitors */
-  version: "15-07-2026",
+  version: "18-08-2026",
 
   /* ── NEW VENDORS ── */
   new_vendors: [
+    {
+      name: "Keysync",
+      url: "https://www.keysync.co/",
+      cats: ["Keycaps"],
+      added: "August 2026"
+    },
+    {
+      name: "VRKAA",
+      url: "https://vrkaa.com/",
+      cats: ["Pre-built","Hall Effect","Mouse"],
+      added: "August 2026"
+    },    
     {
       name: "Arcadex",
       url: "https://www.arcadex.in/",
@@ -29,22 +41,11 @@ const POPUP_DATA = {
       cats: ["Keyboard", "Deskmat"],
       added: "June 2026"
     },
-    {
-      name: "[GB] Kraze65 By Neomacro",
-      url: "https://neomacro.in/search?q=Kraze",
-      cats: ["Active"],
-      added: "June 2026"
-    },
-    {
-      name: "Keebforge",
-      url: "https://www.keebforge.in/",
-      cats: ["Build-Services"],
-      added: "June 2026"
-    },
   ],
 
   /* ── UPDATES / CHANGELOG ── */
   updates: [
+    { icon: "⌨", text: "App.Keydir.in is under active development!" },
     { icon: "⌨", text: "Launched a dedicated Group Buys page." },
     { icon: "📱", text: "Introduced a Contact page for community submissions and inquiries." },
     { icon: "🛠", text: "Expanded the Builders section with 9 new listings." },
