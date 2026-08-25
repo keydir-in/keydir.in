@@ -146,7 +146,7 @@ const VENDORS = [
   {name:"KeebsMod",       url:"https://www.keebsmod.com/",                     cats:["Pre-built","Barebone","Keycaps","Switches","Parts/Tools","Accessories"]},
   {name:"Keychron India", url:"https://keychron.in/",                          cats:["Pre-built","Barebone","Keycaps","Switches","Parts/Tools","Accessories"]},
   {name:"Keyora",         url:"https://keyora.store/",                         cats:["Keycaps","Switches","Parts/Tools","Accessories","Deskpad"]},
-  {name:"Keysync",        url:"https://www.keysync.co.in/",                    cats:["Keycaps"]},
+  {name:"Keysync",        url:"https://www.keysync.co/",                    cats:["Keycaps"]},
   {name:"Loadout",        url:"https://www.loadout.co.in/",                    cats:["Pre-built","Hall Effect","Barebone","Keycaps","Switches","Accessories","Mouse","Mousepad","Deskpad"]},
   {name:"Meckeys",        url:"https://www.meckeys.com/",                      cats:["Pre-built","Hall Effect","Barebone","Keycaps","Switches","Parts/Tools","Accessories","Mouse","Mousepad","Deskpad"]},
   {name:"Moskeys",        url:"https://moskeys.com/",                          cats:["Pre-built","Switches","Mouse"]},
