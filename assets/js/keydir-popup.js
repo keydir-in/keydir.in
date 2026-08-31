@@ -13,10 +13,22 @@
 const POPUP_DATA = {
 
   /* Version string — increment this to force re-show to ALL visitors */
-  version: "18-08-2026",
+  version: "31-08-2026",
 
   /* ── NEW VENDORS ── */
   new_vendors: [
+    {
+      name: "Moddest",
+      url: "https://www.moddest.in/",
+      cats: ["Keycaps","Split","Accessories"],
+      added: "August 2026"
+    },
+    {
+      name: "LethalBlack",
+      url: "https://www.lethalblack.com/",
+      cats: ["Prebuild"],
+      added: "August 2026"
+    },
     {
       name: "Keysync",
       url: "https://www.keysync.co/",
@@ -29,18 +41,6 @@ const POPUP_DATA = {
       cats: ["Pre-built","Hall Effect","Mouse"],
       added: "August 2026"
     },    
-    {
-      name: "Arcadex",
-      url: "https://www.arcadex.in/",
-      cats: ["Hall Effect", "Mouse", "Mousepad"],
-      added: "July 2026"
-    },
-    {
-      name: "Varmiloindia",
-      url: "https://varmiloindia.com/",
-      cats: ["Keyboard", "Deskmat"],
-      added: "June 2026"
-    },
   ],
 
   /* ── UPDATES / CHANGELOG ── */
