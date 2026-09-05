@@ -252,11 +252,12 @@ const BRANDS = [
    Shown on: surfaces.html (Specialist section)
    ══════════════════════════════════════════════════════════════ */
 const PAD_ONLY_VENDORS = [
-  { name: "Claw Gears",       url: "https://clawgears.in/",               types: ["Glass-pad"],                               specialty: "Specialized glass track surfaces",          risk: false, warning_message: "" },
-  { name: "FernTech",         url: "https://ferntechworld.com/",          types: ["Mousepad","Deskpad","Glass-pad"],          specialty: "Premium performance setup mats",            risk: false, warning_message: "" },
-  { name: "Mopadz",           url: "https://mopadz.com/",                 types: ["Deskpad"],                                 specialty: "Bespoke large format layout deskmats",      risk: false, warning_message: "" },
-  { name: "Senpaiarts",       url: "https://senpaiarts.com/",             types: ["Mousepad","Deskpad"],                      specialty: "Artistic aesthetic setup surfaces",         risk: false, warning_message: "" },
-  { name: "Veroforza",        url: "https://veroforza.com/",              types: ["Mousepad","Deskpad"],                      specialty: "Minimalist corporate & gaming layout mats", risk: false, warning_message: "" },
+  { name: "Claw Gears",       url: "https://clawgears.in/",                             types: ["Glass-pad"],                               specialty: "Specialized glass track surfaces",          risk: false, warning_message: "" },
+  { name: "FernTech",         url: "https://ferntechworld.com/",                        types: ["Mousepad","Deskpad","Glass-pad"],          specialty: "Premium performance setup mats",            risk: false, warning_message: "" },
+  { name: "Fictioo",          url: "https://fictioo.com/collections/desk-mats",         types: ["Deskpad"],                                 specialty: "Premium performance setup mats",            risk: false, warning_message: "" },
+  { name: "Mopadz",           url: "https://mopadz.com/",                               types: ["Deskpad"],                                 specialty: "Bespoke large format layout deskmats",      risk: false, warning_message: "" },
+  { name: "Senpaiarts",       url: "https://senpaiarts.com/",                           types: ["Mousepad","Deskpad"],                      specialty: "Artistic aesthetic setup surfaces",         risk: false, warning_message: "" },
+  { name: "Veroforza",        url: "https://veroforza.com/",                            types: ["Mousepad","Deskpad"],                      specialty: "Minimalist corporate & gaming layout mats", risk: false, warning_message: "" },
 ];
 
 /* ════════════════════════════════════════════════════════════════

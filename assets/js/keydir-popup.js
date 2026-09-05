@@ -13,10 +13,16 @@
 const POPUP_DATA = {
 
   /* Version string — increment this to force re-show to ALL visitors */
-  version: "31-08-2026",
+  version: "05-09-2026",
 
   /* ── NEW VENDORS ── */
   new_vendors: [
+    {
+      name: "Fictioo",
+      url: "https://fictioo.com/collections/desk-mats",
+      cats: ["Deskpad"],
+      added: "September 2026"
+    },
     {
       name: "Moddest",
       url: "https://www.moddest.in/",
@@ -33,12 +39,6 @@ const POPUP_DATA = {
       name: "Keysync",
       url: "https://www.keysync.co/",
       cats: ["Keycaps"],
-      added: "August 2026"
-    },
-    {
-      name: "VRKAA",
-      url: "https://vrkaa.com/",
-      cats: ["Pre-built","Hall Effect","Mouse"],
       added: "August 2026"
     },    
   ],
