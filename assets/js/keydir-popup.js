@@ -13,10 +13,16 @@
 const POPUP_DATA = {
 
   /* Version string — increment this to force re-show to ALL visitors */
-  version: "05-09-2026",
+  version: "18-09-2026",
 
   /* ── NEW VENDORS ── */
   new_vendors: [
+    {
+      name: "Zpad",
+      url: "https://zpad.in/",
+      cats: ["Glass-pad"],
+      added: "September 2026"
+    },
     {
       name: "Fictioo",
       url: "https://fictioo.com/collections/desk-mats",
@@ -33,12 +39,6 @@ const POPUP_DATA = {
       name: "LethalBlack",
       url: "https://www.lethalblack.com/",
       cats: ["Prebuild"],
-      added: "August 2026"
-    },
-    {
-      name: "Keysync",
-      url: "https://www.keysync.co/",
-      cats: ["Keycaps"],
       added: "August 2026"
     },    
   ],

@@ -142,7 +142,7 @@ const VENDORS = [
   {name:"Curiosity Caps", url:"https://curiositycaps.in/",                     cats:["Keycaps","Accessories","Mousepad","Deskpad","Glass-pad","PC Parts"]},
   {name:"Cybeart",        url:"https://cybeart.in/",                           cats:["Pre-built","Mouse","Mousepad"]},
   {name:"GenesisPC",      url:"https://www.genesispc.in/",                     cats:["Pre-built","Hall Effect","Keycaps","Switches","Parts/Tools","Accessories","Mouse","Mousepad","Deskpad","Glass-pad"]},
-  {name:"HardwareCorpus", url:"https://hardwarecorpus.in/",                    cats:["Pre-built","Hall Effect","Barebone","Alice","Keycaps","Accessories","Mouse","Deskpad","PC Parts"],warning:true,warning_message:"Community reports show the vendor has been improving"},
+  {name:"HardwareCorpus", url:"https://hardwarecorpus.in/",                    cats:["Pre-built","Hall Effect","Barebone","Alice","Keycaps","Accessories","Mouse","Deskpad","PC Parts"]},
   {name:"KeebsMod",       url:"https://www.keebsmod.com/",                     cats:["Pre-built","Barebone","Keycaps","Switches","Parts/Tools","Accessories"]},
   {name:"Keychron India", url:"https://keychron.in/",                          cats:["Pre-built","Barebone","Keycaps","Switches","Parts/Tools","Accessories"]},
   {name:"Keyora",         url:"https://keyora.store/",                         cats:["Keycaps","Switches","Parts/Tools","Accessories","Deskpad"]},
@@ -258,6 +258,7 @@ const PAD_ONLY_VENDORS = [
   { name: "Mopadz",           url: "https://mopadz.com/",                               types: ["Deskpad"],                                 specialty: "Bespoke large format layout deskmats",      risk: false, warning_message: "" },
   { name: "Senpaiarts",       url: "https://senpaiarts.com/",                           types: ["Mousepad","Deskpad"],                      specialty: "Artistic aesthetic setup surfaces",         risk: false, warning_message: "" },
   { name: "Veroforza",        url: "https://veroforza.com/",                            types: ["Mousepad","Deskpad"],                      specialty: "Minimalist corporate & gaming layout mats", risk: false, warning_message: "" },
+  { name: "Zpad",             url: "https://zpad.in/",                                  types: ["Glass-pad"],                               specialty: "Next-generation glass gaming mouse pad",    risk: false, warning_message: "" },
 ];
 
 /* ════════════════════════════════════════════════════════════════
