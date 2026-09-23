@@ -45,12 +45,12 @@ const POPUP_DATA = {
 
   /* ── UPDATES / CHANGELOG ── */
   updates: [
+    { icon: "⌨", text: "Moskeys.com has been removed from the DIRECTORY[reason : site is dead and vendor is unresponsive." },
     { icon: "⌨", text: "App.Keydir.in is under active development!" },
     { icon: "⌨", text: "Launched a dedicated Group Buys page." },
     { icon: "📱", text: "Introduced a Contact page for community submissions and inquiries." },
-    { icon: "🛠", text: "Expanded the Builders section with 9 new listings." },
     { icon: "⬛", text: "Created separate Mousepad and Glass Pad pages under Surfaces." },
-    { icon: "🏪", text: "Vendor count increased from 19 to 24." },
+    { icon: "🏪", text: "Vendor count increased from 19 to 27." },
   ],
 
 };

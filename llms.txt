@@ -1,0 +1,22 @@
+# KeyDir — Indian Mechanical Keyboard Community Directory
+
+> Community-maintained, unbiased directory of mechanical keyboards, keycaps, switches, and related gear available in India. Covers verified vendors, DIY builders, brand stores, desk surfaces/mousepads, group buys, and a beginner setup guide. No ads, no affiliate links, no tracking.
+
+## Directory
+
+- [Vendors](https://keydir.in/vendors/): Verified Indian gear vendors selling keyboards, keycaps, switches, and accessories, filterable by category.
+- [Builders](https://keydir.in/builders/): DIY builders — custom premium cable makers, structural modders, and custom-layout hardware artisans.
+- [Brands](https://keydir.in/brands/): Official India manufacturer storefronts such as Ajazz, Cosmic Byte, TVS, and Xtro.
+- [Surfaces](https://keydir.in/surfaces/): Tracking grid covering specialized mousepads, desk mats, and glasspads.
+- [Group Buy](https://keydir.in/groupbuy/): Active, upcoming, and closed group buys tracked by the community.
+
+## Resources
+
+- [Setup Guide](https://keydir.in/guide/): Beginner-friendly guide on peripheral optimization, hardware modding, and maintenance.
+- [About](https://keydir.in/about/): What KeyDir is and how the community maintains it.
+- [Contact](https://keydir.in/contact/): Get in touch with the admins.
+- [Terms and Conditions](https://keydir.in/terms-and-conditions/): Usage terms for the directory.
+
+## App
+
+- [KeyDir App](https://app.keydir.in/): Interactive catalog with live vendor prices, price history charts, spec comparison, and community voting.

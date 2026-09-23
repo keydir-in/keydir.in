@@ -151,7 +151,6 @@ const VENDORS = [
   {name:"Loadout",        url:"https://www.loadout.co.in/",                    cats:["Pre-built","Hall Effect","Barebone","Keycaps","Switches","Accessories","Mouse","Mousepad","Deskpad"]},
   {name:"Meckeys",        url:"https://www.meckeys.com/",                      cats:["Pre-built","Hall Effect","Barebone","Keycaps","Switches","Parts/Tools","Accessories","Mouse","Mousepad","Deskpad"]},
   {name:"Moddest",        url:"https://moddest.in/",                           cats:["Keycaps","Split","Accessories"]},
-  {name:"Moskeys",        url:"https://moskeys.com/",                          cats:["Pre-built","Switches","Mouse"]},
   {name:"NeoMacro",       url:"https://neomacro.in/",                          cats:["Pre-built","Hall Effect","Barebone","Split","Keycaps","Switches","Parts/Tools","Accessories","Mouse","Deskpad","Glass-pad","Mousepad"]},
   {name:"NMPC",           url:"https://nmpc.in/",                              cats:["Pre-built","Hall Effect","Mouse","Deskpad"]},
   {name:"RyuGear",        url:"https://ryugear.in/",                           cats:["Pre-built","Hall Effect","Keycaps","Accessories","Mouse","Mousepad","Glass-pad"]},
