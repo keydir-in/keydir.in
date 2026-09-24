@@ -7,10 +7,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Contact KEYDIR.in</title>
+  <title>Contact — KEYDIR.in</title>
 
   <!-- Umami Analytics | popup message-->
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="35caf6d4-f14b-4b28-9f07-600b6910a4d3"></script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="36e84fbd-b0f3-461b-8b10-6d26ab58b410"></script>
   <script src="/assets/js/keydir-popup.js" defer></script>
 
@@ -45,8 +44,8 @@
   <meta property="og:locale" content="en_IN">
 
   <meta property="og:image" content="https://keydir.in/assets/img/Banner.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:image:width" content="475">
+  <meta property="og:image:height" content="154">
   <meta property="og:image:alt" content="KEYDIR.in India Mechanical Keyboard Directory Banner">
 
   <!-- Twitter preview -->
@@ -70,132 +69,6 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <script src="/assets/js/theme.js"></script>
   <style>
-    /* ── ARTIFACT SCROLLBAR KILL OVERRIDES ── */
-    .navbar,
-    .nav-links {
-      overflow: visible !important;
-    }
-
-    #cursor,
-    #prog {
-      pointer-events: none !important;
-    }
-
-    /* ── Dropdown nav (FIXED & BLACK HOVER) ── */
-    .nav-dropdown {
-      position: relative;
-      display: inline-block;
-    }
-
-    .nav-dropdown-btn {
-      font-family: var(--f-m);
-      font-size: .75rem;
-      font-weight: 700;
-      color: var(--text);
-      background: none;
-      border: none;
-      padding: 6px 10px;
-      cursor: pointer;
-      text-transform: uppercase;
-      white-space: nowrap;
-      transition: all .1s;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-
-    /* Turn text black and background to text color (White in dark mode, Black/Yellow in light) */
-    .nav-dropdown:hover .nav-dropdown-btn,
-    .nav-dropdown.active .nav-dropdown-btn {
-      background: var(--text);
-      color: #000000 !important;
-      /* Force text color to black on hover/active states */
-    }
-
-    .nav-dropdown-btn::after {
-      content: '▾';
-      font-size: .6rem;
-      transition: transform 0.2s ease;
-    }
-
-    .nav-dropdown.active .nav-dropdown-btn::after {
-      transform: rotate(180deg);
-    }
-
-    .nav-dropdown-menu {
-      display: none;
-      position: absolute;
-      top: 100%;
-      right: 0;
-      left: auto;
-      background: var(--surface);
-      border: 2px solid var(--border);
-      box-shadow: var(--sh-lg);
-      z-index: 999999 !important;
-      min-width: 160px;
-      flex-direction: column;
-      margin-top: 2px;
-      height: auto !important;
-    }
-
-    /* Hover Interface Padding Bridge */
-    .nav-dropdown-menu::before {
-      content: '';
-      position: absolute;
-      top: -12px;
-      left: 0;
-      right: 0;
-      height: 12px;
-    }
-
-    .nav-dropdown:hover .nav-dropdown-menu,
-    .nav-dropdown.active .nav-dropdown-menu {
-      display: flex !important;
-    }
-
-    .nav-dropdown-menu a {
-      font-family: var(--f-m);
-      font-size: .75rem;
-      font-weight: 700;
-      color: var(--text);
-      text-decoration: none;
-      padding: 10px 16px;
-      text-transform: uppercase;
-      white-space: nowrap;
-      border-bottom: 1px solid var(--border-subtle);
-      transition: all .1s;
-      display: block;
-    }
-
-    .nav-dropdown-menu a:last-child {
-      border-bottom: none;
-    }
-
-    .nav-dropdown-menu a:hover {
-      background: var(--text);
-      color: #000000 !important;
-      /* Turns item link text black on hover inside menu */
-    }
-
-    .nav-dropdown-menu a.active {
-      background: var(--yellow);
-      color: #111;
-    }
-
-    [data-theme="dark"] .nav-dropdown-menu {
-      background: var(--surface);
-      border-color: var(--border);
-    }
-
-    [data-theme="dark"] .nav-dropdown-menu a {
-      border-color: var(--border-subtle);
-    }
-
-    [data-theme="dark"] .nav-dropdown-btn {
-      color: var(--text);
-    }
-
-
     /* ── Contact page specific ── */
     .contact-hero {
       padding: calc(var(--nav-h) + 100px) 24px 80px;

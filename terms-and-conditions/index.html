@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
 
   <!-- Basic Setup -->
@@ -6,15 +8,15 @@
 
   <title>Terms and Conditions — KEYDIR.in</title>
 
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="35caf6d4-f14b-4b28-9f07-600b6910a4d3"></script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="36e84fbd-b0f3-461b-8b10-6d26ab58b410"></script>
+  <script src="/assets/js/keydir-popup.js" defer></script>
 
   <meta name="description"
     content="Read the Terms and Conditions for using KEYDIR.in — India’s mechanical keyboard directory covering vendors, builders, switches, keycaps, accessories, and listings.">
 
   <meta name="robots" content="index, follow, max-image-preview:large">
 
-  <link rel="canonical" href="https://keydir.in/Terms-and-Conditions/">
+  <link rel="canonical" href="https://keydir.in/terms-and-conditions/">
 
   <!-- Geo Targeting -->
   <meta name="geo.region" content="IN">
@@ -32,14 +34,14 @@
   <!-- Open Graph -->
   <meta property="og:title" content="Terms and Conditions — KEYDIR.in">
   <meta property="og:description" content="Terms and Conditions for using KEYDIR.in mechanical keyboard directory.">
-  <meta property="og:url" content="https://keydir.in/Terms-and-Conditions/">
+  <meta property="og:url" content="https://keydir.in/terms-and-conditions/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="KEYDIR.in">
   <meta property="og:locale" content="en_IN">
 
   <meta property="og:image" content="https://keydir.in/assets/img/Banner.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:image:width" content="475">
+  <meta property="og:image:height" content="154">
   <meta property="og:image:alt" content="KEYDIR.in Terms and Conditions">
 
   <!-- Twitter preview -->
@@ -65,7 +67,7 @@
  "@context": "https://schema.org",
  "@type": "WebPage",
  "name": "Terms and Conditions",
- "url": "https://keydir.in/Terms-and-Conditions/",
+ "url": "https://keydir.in/terms-and-conditions/",
  "description": "Terms and Conditions governing the use of KEYDIR.in mechanical keyboard directory."
 }
 </script>
@@ -469,11 +471,18 @@
       <a href="/builders/">_Builders</a>
       <a href="/brands/">_Brands</a>
       <a href="/surfaces/">_Surfaces</a>
-      <a href="/guide/">_Guide</a>
-      <a href="/about/">_About</a>
-      <a href="https://github.com/keydir-in/keydir.in" target="_blank"
-        style="background:var(--dark-card-bg);color:#FFFCF0">_GitHub</a>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-btn">_More</button>
+        <div class="nav-dropdown-menu">
+          <a href="/groupbuy/">_Group Buy</a>
+          <a href="/guide/">_Guide</a>
+          <a href="/about/">_About</a>
+          <a href="/contact/">_Contact</a>
+          <a href="https://github.com/keydir-in/keydir.in" target="_blank">_GitHub ↗</a>
+        </div>
+      </div>
     </div>
+    <button class="nav-ham" id="ham"><span></span><span></span><span></span></button>
   </nav>
   <!-- Mobile Dropdown Navigation Menu drawer -->
   <div id="mob-nav">
@@ -492,14 +501,8 @@
   <!-- Marquee -->
   <div class="marquee-strip">
     <div class="marquee-track">
-      <span>NON-COMMERCIAL</span><span class="sep">///</span><span>COMMUNITY USE</span><span
-        class="sep">///</span><span>ATTRIBUTION REQUIRED</span><span class="sep">///</span><span>NO
-        WARRANTIES</span><span class="sep">///</span><span>DATA DISCLAIMER</span><span class="sep">///</span><span>OPEN
-        SOURCE</span><span class="sep">///</span><span>FORK RESPONSIBLY</span><span class="sep">///</span>
-      <span>NON-COMMERCIAL</span><span class="sep">///</span><span>COMMUNITY USE</span><span class="sep">///</span><span
-        class="sep">///</span><span>ATTRIBUTION REQUIRED</span><span class="sep">///</span><span>NO
-        WARRANTIES</span><span class="sep">///</span><span>DATA DISCLAIMER</span><span class="sep">///</span><span>OPEN
-        SOURCE</span><span class="sep">///</span><span>FORK RESPONSIBLY</span><span class="sep">///</span>
+      <span>NON-COMMERCIAL</span><span class="sep">///</span><span>COMMUNITY USE</span><span class="sep">///</span><span>ATTRIBUTION REQUIRED</span><span class="sep">///</span><span>NO WARRANTIES</span><span class="sep">///</span><span>DATA DISCLAIMER</span><span class="sep">///</span><span>OPEN SOURCE</span><span class="sep">///</span><span>FORK RESPONSIBLY</span><span class="sep">///</span>
+      <span>NON-COMMERCIAL</span><span class="sep">///</span><span>COMMUNITY USE</span><span class="sep">///</span><span>ATTRIBUTION REQUIRED</span><span class="sep">///</span><span>NO WARRANTIES</span><span class="sep">///</span><span>DATA DISCLAIMER</span><span class="sep">///</span><span>OPEN SOURCE</span><span class="sep">///</span><span>FORK RESPONSIBLY</span><span class="sep">///</span>
     </div>
   </div>
 
@@ -869,6 +872,28 @@
   </footer>
 
   <script src="/assets/js/shared.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const ham = document.getElementById("ham");
+      const mobNav = document.getElementById("mob-nav");
+      const mobClose = document.getElementById("mob-close");
+      if (ham && mobNav && mobClose) {
+        ham.addEventListener("click", () => mobNav.classList.add("open"));
+        mobClose.addEventListener("click", () => mobNav.classList.remove("open"));
+      }
+      const dropdown = document.querySelector('.nav-dropdown');
+      const dropdownBtn = document.querySelector('.nav-dropdown-btn');
+      if (dropdownBtn && dropdown) {
+        dropdownBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          dropdown.classList.toggle('active');
+        });
+        document.addEventListener('click', () => {
+          dropdown.classList.remove('active');
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>

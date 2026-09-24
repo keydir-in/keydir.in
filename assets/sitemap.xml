@@ -3,70 +3,70 @@
 
   <url>
     <loc>https://keydir.in/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://keydir.in/vendors/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://keydir.in/builders/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://keydir.in/brands/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://keydir.in/surfaces/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://keydir.in/groupbuy/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://keydir.in/guide/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://keydir.in/about/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://keydir.in/contact/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
     <loc>https://keydir.in/terms-and-conditions/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>

@@ -7,4 +7,4 @@ Disallow: /tmp/
 Disallow: /*?*
 
 # Sitemap location
-Sitemap: https://keydir.in/sitemap.xml
+Sitemap: https://keydir.in/assets/sitemap.xml
